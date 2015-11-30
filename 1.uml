@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements">
   <uml:Model xmi:id="_AIim4JdYEeW3f_uEEo3Xyw" name="RootElement">
-    <packagedElement xmi:type="uml:Class" xmi:id="_5F6KQJdaEeWxGoQP0Hi7Fg" name="Requisito de Fran"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_X_WjoJdbEeWFtJT5GYb6Lw" name="Debe volar">
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_Tv9SYJdYEeW3f_uEEo3Xyw" name="Requisito de Jorge"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5F6KQJdaEeWxGoQP0Hi7Fg" name="Debe evadir obstaculos(Fran)">
+      <generalization xmi:type="uml:Generalization" xmi:id="_iv5qMJddEeW7dPVCFcvqqw" general="_X_WjoJdbEeWFtJT5GYb6Lw"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_X_WjoJdbEeWFtJT5GYb6Lw" name="Debe volar (Dani)">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Tv9SYJdYEeW3f_uEEo3Xyw" name="Debe tener aspas (jorge)"/>
+      </nestedClassifier>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rkN08JdcEeW7dPVCFcvqqw" name="DRONE"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ocxtcJddEeW7dPVCFcvqqw" name="Objeto Drone"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_u2sc4JddEeW7dPVCFcvqqw" name="Drone" client="_Tv9SYJdYEeW3f_uEEo3Xyw" supplier="_ocxtcJddEeW7dPVCFcvqqw"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_AM0C4JdYEeW3f_uEEo3Xyw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AM0p8JdYEeW3f_uEEo3Xyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
@@ -72,7 +77,8 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_neZmMLX8EduFmqQsrNB9lw"/>
     </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_TymWsJdYEeW3f_uEEo3Xyw" base_Class="_Tv9SYJdYEeW3f_uEEo3Xyw"/>
+  <Requirements:Requirement xmi:id="_TymWsJdYEeW3f_uEEo3Xyw" text="" id="" base_Class="_Tv9SYJdYEeW3f_uEEo3Xyw"/>
   <Requirements:Requirement xmi:id="_5HW7wJdaEeWxGoQP0Hi7Fg" base_Class="_5F6KQJdaEeWxGoQP0Hi7Fg"/>
   <Requirements:Requirement xmi:id="_YAyuEJdbEeWFtJT5GYb6Lw" base_Class="_X_WjoJdbEeWFtJT5GYb6Lw"/>
+  <Blocks:Block xmi:id="_rlEJgJdcEeW7dPVCFcvqqw" base_Class="_rkN08JdcEeW7dPVCFcvqqw"/>
 </xmi:XMI>
