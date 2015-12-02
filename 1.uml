@@ -10,6 +10,13 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_rkN08JdcEeW7dPVCFcvqqw" name="DRONE"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_ocxtcJddEeW7dPVCFcvqqw" name="Objeto Drone"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_u2sc4JddEeW7dPVCFcvqqw" name="Drone" client="_Tv9SYJdYEeW3f_uEEo3Xyw" supplier="_ocxtcJddEeW7dPVCFcvqqw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IOvzEJlHEeWm9qGLgZwHiw" name="Debe reconocer imágenes (Andrea)">
+      <generalization xmi:type="uml:Generalization" xmi:id="_IOvzEZlHEeWm9qGLgZwHiw" general="_IOvzEplHEeWm9qGLgZwHiw"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_gMfloJlHEeWm9qGLgZwHiw" general="_X_WjoJdbEeWFtJT5GYb6Lw"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_IOvzEplHEeWm9qGLgZwHiw" name="Debe volar (Dani)">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_IOvzE5lHEeWm9qGLgZwHiw" name="Debe tener aspas (jorge)"/>
+      </nestedClassifier>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_AM0C4JdYEeW3f_uEEo3Xyw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AM0p8JdYEeW3f_uEEo3Xyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
@@ -81,4 +88,7 @@
   <Requirements:Requirement xmi:id="_5HW7wJdaEeWxGoQP0Hi7Fg" base_Class="_5F6KQJdaEeWxGoQP0Hi7Fg"/>
   <Requirements:Requirement xmi:id="_YAyuEJdbEeWFtJT5GYb6Lw" base_Class="_X_WjoJdbEeWFtJT5GYb6Lw"/>
   <Blocks:Block xmi:id="_rlEJgJdcEeW7dPVCFcvqqw" base_Class="_rkN08JdcEeW7dPVCFcvqqw"/>
+  <Requirements:Requirement xmi:id="_IO0EgJlHEeWm9qGLgZwHiw" base_Class="_IOvzEplHEeWm9qGLgZwHiw"/>
+  <Requirements:Requirement xmi:id="_IO7ZQJlHEeWm9qGLgZwHiw" text="" id="" base_Class="_IOvzE5lHEeWm9qGLgZwHiw"/>
+  <Requirements:Requirement xmi:id="_IO8AUJlHEeWm9qGLgZwHiw" base_Class="_IOvzEJlHEeWm9qGLgZwHiw"/>
 </xmi:XMI>
