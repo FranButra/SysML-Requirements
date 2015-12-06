@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements">
   <uml:Model xmi:id="_AIim4JdYEeW3f_uEEo3Xyw" name="RootElement">
-    <packagedElement xmi:type="uml:Class" xmi:id="_5F6KQJdaEeWxGoQP0Hi7Fg" name="Debe evadir obstaculos(Fran)">
-      <generalization xmi:type="uml:Generalization" xmi:id="_iv5qMJddEeW7dPVCFcvqqw" general="_X_WjoJdbEeWFtJT5GYb6Lw"/>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_X_WjoJdbEeWFtJT5GYb6Lw" name="Debe volar (Dani)">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_Tv9SYJdYEeW3f_uEEo3Xyw" name="Debe tener aspas (jorge)"/>
-      </nestedClassifier>
-    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_rkN08JdcEeW7dPVCFcvqqw" name="DRONE"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_ocxtcJddEeW7dPVCFcvqqw" name="Objeto Drone"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_u2sc4JddEeW7dPVCFcvqqw" name="Drone" client="_Tv9SYJdYEeW3f_uEEo3Xyw" supplier="_ocxtcJddEeW7dPVCFcvqqw"/>
@@ -24,6 +18,15 @@
       </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_PZNGoJwQEeWsSY6OKRpZOw" name="Medio de vuelo" client="_X_WjoJdbEeWFtJT5GYb6Lw" supplier="_6-iZQJwPEeWsSY6OKRpZOw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_MPQJ8JxOEeWsbv7vhjyerw" name="Security (Miguel)">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_5F6KQJdaEeWxGoQP0Hi7Fg" name="Debe evadir obstaculos(Fran)">
+        <generalization xmi:type="uml:Generalization" xmi:id="_iv5qMJddEeW7dPVCFcvqqw" general="_X_WjoJdbEeWFtJT5GYb6Lw"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_X_WjoJdbEeWFtJT5GYb6Lw" name="Debe volar (Dani)">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Tv9SYJdYEeW3f_uEEo3Xyw" name="Debe tener aspas (jorge)"/>
+        </nestedClassifier>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_VdOGoJxUEeWsbv7vhjyerw" name="Percibir obstáculos" client="_5F6KQJdaEeWxGoQP0Hi7Fg" supplier="_IOvzEJlHEeWm9qGLgZwHiw"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_AM0C4JdYEeW3f_uEEo3Xyw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AM0p8JdYEeW3f_uEEo3Xyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
@@ -102,4 +105,5 @@
   <Requirements:Requirement xmi:id="_6-mDoJwPEeWsSY6OKRpZOw" text="Mezcla gaseosa de N2 (77-79% en volumen) y O2 (21-22%). Trazas de otros gases no reactivos hasta un 1%." id="1.0" base_Class="_6-iZQJwPEeWsSY6OKRpZOw"/>
   <Requirements:Requirement xmi:id="_6-mqsJwPEeWsSY6OKRpZOw" base_Class="_6-iZQpwPEeWsSY6OKRpZOw"/>
   <Requirements:DeriveReqt xmi:id="_PaKI4JwQEeWsSY6OKRpZOw" base_Abstraction="_PZNGoJwQEeWsSY6OKRpZOw"/>
+  <Requirements:Requirement xmi:id="_MR0VwJxOEeWsbv7vhjyerw" text="It must be secure at mounting, switching-on, operation, switching-off, maintenance and dismantling. It must maintain the integrity of the environment and the drone itself by avoiding any action that could led into a dangerous situation, at any case. " id="1" base_Class="_MPQJ8JxOEeWsbv7vhjyerw"/>
 </xmi:XMI>
