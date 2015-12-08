@@ -27,6 +27,13 @@
       </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_VdOGoJxUEeWsbv7vhjyerw" name="Percibir obstáculos" client="_5F6KQJdaEeWxGoQP0Hi7Fg" supplier="_IOvzEJlHEeWm9qGLgZwHiw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-kEiUJ3MEeWdIujTPqJgdA" name="Debe de medir su velocidad con precision (Diego)">
+      <generalization xmi:type="uml:Generalization" xmi:id="_-kEiUZ3MEeWdIujTPqJgdA" general="_-kEiUp3MEeWdIujTPqJgdA"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_-kEiUp3MEeWdIujTPqJgdA" name="Debe volar (Dani)">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_-kEiU53MEeWdIujTPqJgdA" name="Debe tener aspas (jorge)"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Z0NSsJ3NEeWdIujTPqJgdA" client="_5F6KQJdaEeWxGoQP0Hi7Fg" supplier="_-kEiUJ3MEeWdIujTPqJgdA"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_AM0C4JdYEeW3f_uEEo3Xyw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AM0p8JdYEeW3f_uEEo3Xyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
@@ -106,4 +113,7 @@
   <Requirements:Requirement xmi:id="_6-mqsJwPEeWsSY6OKRpZOw" base_Class="_6-iZQpwPEeWsSY6OKRpZOw"/>
   <Requirements:DeriveReqt xmi:id="_PaKI4JwQEeWsSY6OKRpZOw" base_Abstraction="_PZNGoJwQEeWsSY6OKRpZOw"/>
   <Requirements:Requirement xmi:id="_MR0VwJxOEeWsbv7vhjyerw" text="It must be secure at mounting, switching-on, operation, switching-off, maintenance and dismantling. It must maintain the integrity of the environment and the drone itself by avoiding any action that could led into a dangerous situation, at any case. " id="1" base_Class="_MPQJ8JxOEeWsbv7vhjyerw"/>
+  <Requirements:Requirement xmi:id="_-kOTUJ3MEeWdIujTPqJgdA" id="null" base_Class="_-kEiUJ3MEeWdIujTPqJgdA"/>
+  <Requirements:Requirement xmi:id="_-kcVwJ3MEeWdIujTPqJgdA" base_Class="_-kEiUp3MEeWdIujTPqJgdA"/>
+  <Requirements:Requirement xmi:id="_-keK8J3MEeWdIujTPqJgdA" text="" id="" base_Class="_-kEiU53MEeWdIujTPqJgdA"/>
 </xmi:XMI>
