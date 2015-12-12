@@ -34,6 +34,13 @@
       </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_Z0NSsJ3NEeWdIujTPqJgdA" client="_5F6KQJdaEeWxGoQP0Hi7Fg" supplier="_-kEiUJ3MEeWdIujTPqJgdA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xF9j4KDsEeWH5Lgq3joESQ" name="Debe conocer su posición (absoluta y realtiva al abstáculo) (Miguel Carretero)">
+      <generalization xmi:type="uml:Generalization" xmi:id="_xF9j4aDsEeWH5Lgq3joESQ" general="_xF9j4qDsEeWH5Lgq3joESQ"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_xF9j4qDsEeWH5Lgq3joESQ" name="Debe volar (Dani)">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_xF9j46DsEeWH5Lgq3joESQ" name="Debe tener aspas (jorge)"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_zB99kKDsEeWH5Lgq3joESQ" client="_5F6KQJdaEeWxGoQP0Hi7Fg" supplier="_xF9j4KDsEeWH5Lgq3joESQ"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_AM0C4JdYEeW3f_uEEo3Xyw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AM0p8JdYEeW3f_uEEo3Xyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
@@ -116,4 +123,7 @@
   <Requirements:Requirement xmi:id="_-kOTUJ3MEeWdIujTPqJgdA" id="null" base_Class="_-kEiUJ3MEeWdIujTPqJgdA"/>
   <Requirements:Requirement xmi:id="_-kcVwJ3MEeWdIujTPqJgdA" base_Class="_-kEiUp3MEeWdIujTPqJgdA"/>
   <Requirements:Requirement xmi:id="_-keK8J3MEeWdIujTPqJgdA" text="" id="" base_Class="_-kEiU53MEeWdIujTPqJgdA"/>
+  <Requirements:Requirement xmi:id="_xGCcYKDsEeWH5Lgq3joESQ" text="" id="" base_Class="_xF9j46DsEeWH5Lgq3joESQ"/>
+  <Requirements:Requirement xmi:id="_xGNbgKDsEeWH5Lgq3joESQ" base_Class="_xF9j4qDsEeWH5Lgq3joESQ"/>
+  <Requirements:Requirement xmi:id="_xGOpoKDsEeWH5Lgq3joESQ" id="null" base_Class="_xF9j4KDsEeWH5Lgq3joESQ"/>
 </xmi:XMI>
