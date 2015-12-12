@@ -34,7 +34,7 @@
       </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_Z0NSsJ3NEeWdIujTPqJgdA" client="_5F6KQJdaEeWxGoQP0Hi7Fg" supplier="_-kEiUJ3MEeWdIujTPqJgdA"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_xF9j4KDsEeWH5Lgq3joESQ" name="Debe conocer su posición (absoluta y realtiva al abstáculo) (Miguel Carretero)">
+    <packagedElement xmi:type="uml:Class" xmi:id="_xF9j4KDsEeWH5Lgq3joESQ" name="Debe conocer su posición (absoluta y relativa al obstáculo) (Miguel Carretero)">
       <generalization xmi:type="uml:Generalization" xmi:id="_xF9j4aDsEeWH5Lgq3joESQ" general="_xF9j4qDsEeWH5Lgq3joESQ"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_xF9j4qDsEeWH5Lgq3joESQ" name="Debe volar (Dani)">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_xF9j46DsEeWH5Lgq3joESQ" name="Debe tener aspas (jorge)"/>
